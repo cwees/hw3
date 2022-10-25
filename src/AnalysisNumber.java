@@ -10,11 +10,10 @@ public class AnalysisNumber {
         long endTime;
         List<Integer> arra = new ArrayList<Integer>();
         List<Integer> link = new LinkedList<Integer>();
-/*         Scanner in = new Scanner(System.in); 
+        Scanner in = new Scanner(System.in); 
 		System.out.println("Enter the Initial list size:");
 		String snumb = in.nextLine(); 
-		int numb = Integer.valueOf(snumb); */
-        int numb = 5000;
+		int numb = Integer.valueOf(snumb);
 
         for(int i =0;i<5;i++){
             
@@ -64,7 +63,7 @@ public class AnalysisNumber {
 
 
 
-/*        in.close(); */
+       in.close();
     }
     public static int indexFixer(int index){
         if(index<0){
